@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.flash-messages {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  width: 50%;
+  text-align: center;
+}
+
+.flash-message {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
